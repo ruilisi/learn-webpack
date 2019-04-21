@@ -1,4 +1,5 @@
 const path = require('path');
+const HelloWorldPlugin = require('./plugins/HelloWorldPlugin.js')
 
 module.exports = {
   context: __dirname,
@@ -19,10 +20,13 @@ module.exports = {
         test: /\.js$/,
         use: [
           {
-            loader: 'strip-enter-loader.js'
+            loader: 'StripEnterLoader.js'
           }
         ]
       }
     ]
-  }
+  },
+  plugins: [
+    new HelloWorldPlugin()
+  ]
 };
