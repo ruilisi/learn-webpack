@@ -1,0 +1,11 @@
+{
+  "name": "learn_webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "hophacker <jiefeng.hopkins@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  }
+}
