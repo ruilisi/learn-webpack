@@ -1,4 +1,4 @@
 function hello () {
-  console.info('world')
+  console.info('Hello world')
 }
 hello()

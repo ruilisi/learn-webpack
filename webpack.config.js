@@ -2,6 +2,7 @@ const path = require('path');
 const HelloWorldPlugin = require('./plugins/HelloWorldPlugin.js')
 
 module.exports = {
+  mode: 'development',
   context: __dirname,
   entry: './src/index.js',
   output: {
